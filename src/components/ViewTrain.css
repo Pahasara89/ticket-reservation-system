@@ -1,0 +1,58 @@
+/* ViewTrain.css */
+
+/* Style the container */
+.containersss {
+    margin: 20px;
+  }
+  
+  /* Style the table heading */
+  .table.header {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  /* Style table rows */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style button links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Style the "Update" button */
+  .btn-secondary {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the "Delete" button */
+  .btn-danger {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Style the table rows alternately for better readability */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

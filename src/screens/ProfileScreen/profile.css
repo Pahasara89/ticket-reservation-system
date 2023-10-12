@@ -1,0 +1,27 @@
+.profilePic {
+ 
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.profileContainer {
+  display: flex;
+  margin: 50px;
+}
+
+
+
+.line{
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 10;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 10px solid red;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileContainer {
+    flex-direction: column-reverse;
+  }
+}

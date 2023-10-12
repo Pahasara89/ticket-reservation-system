@@ -1,0 +1,19 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+
+
+}
+
+
+.line{
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 10px solid red;
+}
+
+

@@ -1,0 +1,17 @@
+.scard
+{
+      margin-left: -200px;
+}
+
+.circle {
+      border-radius: 50%;
+      width: 20px;
+      height: 2px;
+      padding-bottom: 25px;
+      background: rgb(186, 8, 8);
+      border: 3px solid white;
+      font-size: 16px;
+      text-align: center;
+      
+}
+

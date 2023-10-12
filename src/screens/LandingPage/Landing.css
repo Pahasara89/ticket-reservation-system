@@ -1,0 +1,61 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../images/city.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 99px;
+  color:white;
+  
+  margin-right: 90px;
+}
+.subtitle {
+  font-size: 35px;
+  padding-top: 10px;
+  color:white;
+  
+  font-weight: bold;
+  margin-right: 90px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 90px;
+ 
+}
+
+.landingbutton {
+  width: 200px;
+  height: 55px;
+   background-color: #2F3E48;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}

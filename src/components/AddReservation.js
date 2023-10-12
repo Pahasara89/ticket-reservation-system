@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SweetAlert from 'react-bootstrap-sweetalert';
 import Reservation from './Reservation.css';
+import ReservationNavBar from './ReservationNavBar';
 
 function AddReservation() {
 
@@ -72,6 +73,8 @@ function AddReservation() {
   };
 
   return (
+    <>
+     <ReservationNavBar/>
     <div className="containerss">
       <h2 style={{ textAlign: 'center' }}>Add New Reservation</h2>
       <form onSubmit={handleSubmit}>
@@ -198,6 +201,7 @@ function AddReservation() {
         </SweetAlert>
       )}
     </div>
+    </>
   );
 }
 

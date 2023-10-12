@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react';
 import { DateTime } from 'luxon'; // Import DateTime from luxon
 import SweetAlert from 'react-bootstrap-sweetalert';
 import Schedule from './Schedule.css';
+import ScheduleNavBar from './ScheduleNavBar'
 
 function AddSchedule() {
   // State variables for schedule data 
@@ -140,6 +141,8 @@ function AddSchedule() {
   }
 
   return (
+    <>
+    <ScheduleNavBar/>
     <div className="containers">
       <h2 style={{ textAlign: 'center' }}>Add New Schedule</h2>
       <form onSubmit={handleSubmit}>
@@ -301,7 +304,7 @@ function AddSchedule() {
         </div>
         {/* Stopping Stations */}
         <div className="form-group mb-3">
-          <h3 style={{ textAlign: 'center', color: 'black' }}>Train Stations</h3>
+          <h3 style={{ textAlign: 'center', color: 'white' }}>Train Stations</h3>
           {scheduleData.stoppingStations.map((station, index) => (
             <div key={index} className="stopping-station">
               <div className="form-group">
@@ -360,25 +363,24 @@ function AddSchedule() {
                   required
                 />
               </div>
-              <button
+              <buttonss
                 type="button"
                 onClick={() => handleRemoveStoppingStation(index)}
                 className="btn btn-danger mt-3" 
               >
                 Remove Station
-              </button>
+              </buttonss>
             </div>
           ))}
           <br></br>
-            <button
+            <buttons
               type="button"
               onClick={handleAddStoppingStation}
               className="btn btn-warning mt-3"
             >
               Add Station
-            </button>
+            </buttons>
         </div>
-        <br></br>
         <div className="form-group mb-3 text-center">
           <button type="submit" className="btn btn-primary mt-3">
             Add Schedule
@@ -396,6 +398,7 @@ function AddSchedule() {
         </SweetAlert>
       )}
     </div>
+    </>
   );
 }
 

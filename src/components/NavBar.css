@@ -1,0 +1,88 @@
+.nav{
+    font-size: 30px;
+    
+    
+  }
+  
+  a {
+    
+    transition: .5s;
+    text-align: center;
+    margin-left:5px;
+    margin-right:5px;
+    
+  }
+  
+  .color {
+    background-color:grey;
+  }
+  
+  .active {
+    background-color:#8f0b79;
+  }
+  
+  .anime:hover {
+    background-color:#8f0b79;
+  }
+
+  .form{
+    margin-left:25%;
+    margin-right:25%;
+    
+  }
+
+  .Form{
+    margin-bottom: 10px;
+  }
+  
+  .form-label1{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  
+  .textcolor {
+    color:white;
+    font-weight: bold;
+  }
+  
+  .Addbtn{
+    margin-bottom: 5px;
+    margin-left: 15px;
+    background-color:cornflowerblue;
+    color: white;
+    
+  }
+
+  .table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2bb8a1;
+    color:black;
+  }
+
+
+  .btn2 {
+    background-color: #2bb8a1;
+    border-radius: 5px;
+    margin-left: 670px;
+    margin-bottom: 30px;
+  }
+ 
+
+  

@@ -1,16 +1,5 @@
 
-
-
-
-
-.body {
-	font-family: sans-serif;
-	background-color: #e01212;
-	/* background-image: url('../images/2021-07_Web2_Banners_DaaS.jpg'); */
-	
-}
-
-.containerss {
+.containersss {
 	position: absolute;
 	width: 350px;
 	height: 660px;
@@ -26,12 +15,9 @@
 	border-radius: 25px;
 	background-color: rgba(8, 8, 8, 0.7);
 	box-shadow: 0 0 8px rgb(245, 242, 242);
+  }
 
-
-
-}
-
-.containerss h2 {
+  .containerss h2 {
 	font-size: 2.2rem;
 	color: rgb(224, 220, 220);
 	margin-bottom: 50px;
@@ -39,44 +25,18 @@
 
 }
 
-.containerss label {
-	font-weight: 350;
-	color: white
-}
+  
+  /* Checkbox styling */
+  .form-check {
+    margin-bottom: 15px;
+  }
+  
+  .form-check label {
+    display: inline;
+    margin-left: 10px;
+  }
 
-.containerss input {
-	max-width: 600px;
-	width: 600px;
-	height: 40px;
-	background-color: rgb(175, 173, 173);
-	margin: 1px 0;
-	border-radius: 10px;
-	display: grid;
-	grid-template-columns: 15% 85%;
-	padding: 0 0.100rem;
-	position: relative;
-	line-height: 1;
-	font-weight: 600;
-	margin-bottom: 18px;
-
-}
-
-.containerss input placeholder {
-	color: white;
-	font-weight: 500;
-	border: none;
-	outline: none;
-	background: none;
-	width: 50%;
-	font-size: 18px;
-	color: white;
-	padding: 20px 10px 20px 5px;
-	margin-bottom: 30px;
-	border-radius: 25px;
-	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
-}  
-
-.containerss button {
+  .containersss button {
 	outline: none;
 	border: none;
 	cursor: pointer;
@@ -91,18 +51,18 @@
 	background-color: rgba(8, 8, 8, 0.7);
 	box-shadow: 3px 3px 8px #10B48E, -3px -3px 8px #10B48E;
 	transition: all 0.5s;
-	margin-left: 110px;
+	margin-left: 200px;
 }
 
-.containerss button:hover {
+.containersss button:hover {
 	background-color: #10B48E;
 }
 
-.containerss button:active {
+.containersss button:active {
 	background-color: #88ef9e;
 }
 
-.containerss buttons {
+.containersss buttons {
 	outline: none;
 	border: none;
 	cursor: pointer;
@@ -117,13 +77,16 @@
 	background-color: rgba(8, 8, 8, 0.7);
 	box-shadow: 3px 3px 8px #e01212, -3px -3px 8px #e01212;
 	transition: all 0.5s;
-	margin-left: 50px;
+	margin-left: 200px;
 }
 
-.containerss buttons:hover {
+.containersss buttons:hover {
 	background-color: #e01212;
 }
 
-.containerss buttons:active {
+.containersss buttons:active {
 	background-color: #e31313;
 }
+  
+
+  

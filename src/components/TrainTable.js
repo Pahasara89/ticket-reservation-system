@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import '../../CSS/traintable.css'
 import { Link } from 'react-router-dom';
 import ViewTrain from './ViewTrain.css';
+import TrainNavBar from './TrainNavBar'
 
 function TrainTable() {
   // State to store train data
@@ -33,7 +34,8 @@ function TrainTable() {
   };
 
   return (
-    <div className="containersss">
+    <div className="containerssss">
+      <TrainNavBar/>
       <br></br>
       {/* <h1 className="my-4 text-center text-primary">Train Details</h1> */}
       <table className="table table-striped">

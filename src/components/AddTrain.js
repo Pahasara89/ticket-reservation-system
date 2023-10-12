@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import SweetAlert from 'react-bootstrap-sweetalert';
+import TrainNavBar from './TrainNavBar';
+import './Train.css';
 
 
 function AddTrain() {
@@ -69,7 +71,9 @@ function AddTrain() {
   };
 
   return (
-    <div className="containerss">
+    <>
+    <TrainNavBar/>
+    <div className="containersss">
       <h2 style={{ textAlign: 'center' }}>Add New Train</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group mb-3">
@@ -189,6 +193,7 @@ function AddTrain() {
         </SweetAlert>
       )}
     </div>
+    </>
   );
 }
 

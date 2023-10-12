@@ -9,6 +9,7 @@ import LoginScreen from "./screens/LoginScreen/LoginScreen";
 import ProfileScreen from './screens/ProfileScreen/ProfileScreen';
 
 import AdminHome from './components/AdminHome';
+import UserManagement from './components/UserManagement';
 
 
 import AddTrain from './components/AddTrain';
@@ -36,6 +37,7 @@ function App() {
         <Route path="/profile" element={<ProfileScreen />} />
 
         <Route path="/admin-home" element={<AdminHome/>} />
+        <Route path="/userManagement" element={<UserManagement/>}/>
 
 
         <Route path="/trains" element={<TrainTable/>} />

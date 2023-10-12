@@ -21,7 +21,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 750px;
-	height: 1400px;
+	height: 2000px;
 	padding: 60px 35px 35px 35px;
 	border-radius: 25px;
 	background-color: rgba(8, 8, 8, 0.7);
@@ -85,13 +85,14 @@
 	border-radius: 10px;
 	font-size: 18px;
 	font-weight: 700;
+	font-weight: 700;
 	font-family: "Lato", sans-serif;
 	color: #fff;
 	text-align: center;
 	background-color: rgba(8, 8, 8, 0.7);
 	box-shadow: 3px 3px 8px #10B48E, -3px -3px 8px #10B48E;
 	transition: all 0.5s;
-	margin-left: 220px;
+	margin-right: 49px;
 }
 
 .containers button:hover {
@@ -102,7 +103,7 @@
 	background-color: #88ef9e;
 }
 
-/* .containers buttons {
+.containers buttons {
 	outline: none;
 	border: none;
 	cursor: pointer;
@@ -117,7 +118,7 @@
 	background-color: rgba(8, 8, 8, 0.7);
 	box-shadow: 3px 3px 8px #e01212, -3px -3px 8px #e01212;
 	transition: all 0.5s;
-	margin-left: 50px;
+	margin-left: 190px;
 }
 
 .containers buttons:hover {
@@ -126,4 +127,4 @@
 
 .containers buttons:active {
 	background-color: #e31313;
-} */
+}

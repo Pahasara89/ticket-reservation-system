@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import '../../CSS/traintable.css';
 import { Link } from 'react-router-dom';
 import SweetAlert from 'react-bootstrap-sweetalert';
+import ScheduleNavBar from './ScheduleNavBar'
 
 function ScheduleTable() {
   // State variables for schedules, train names, route names, and the cancellation popup
@@ -83,7 +84,8 @@ function ScheduleTable() {
 
   return (
     <div className="container">
-      <h1 className="my-4 text-center text-primary">Schedule Details</h1>
+      <ScheduleNavBar/>
+      <br></br>
       <table className="table table-striped">
         <thead className="table header">
           <tr>

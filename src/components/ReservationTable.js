@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link ,useNavigate  } from 'react-router-dom';
 import SweetAlert from 'react-bootstrap-sweetalert';
+import ReservationNavBar from './ReservationNavBar';
 
 const ReservationManage = () => {
   // State to store reservations data
@@ -72,8 +73,10 @@ const ReservationManage = () => {
   };
 
   return (
+    <>
+    <ReservationNavBar/>
+    <br></br>
     <div>
-      <h1 className="my-4 text-center text-primary">Reservation Details</h1>
       <table className="table table-striped">
         <thead>
           <tr>
@@ -142,6 +145,7 @@ const ReservationManage = () => {
         </SweetAlert>
       )}
     </div>
+    </>
   );
 };
 

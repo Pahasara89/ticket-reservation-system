@@ -21,6 +21,12 @@ import UpdateReservation from './components/UpdateReservation';
 import ScheduleTable from './components/ScheduleTable';
 import ReservationTable from './components/ReservationTable';
 import TrainTable from './components/TrainTable';
+import AddTraveler from './components/AddTraveler';
+import TravelerTable from './components/TravelerTable';
+import UpdateTravelerForm from './components/UpdateTraveler';
+import TravelArgentHome from './components/TravelArgentHome';
+import ActiveTravelTabele from './components/ActiveTravelTable';
+import ActiveTravelerAdd from './components/ActiveTravelerAdd';
 
 function App() {
 
@@ -37,7 +43,14 @@ function App() {
         <Route path="/profile" element={<ProfileScreen />} />
 
         <Route path="/admin-home" element={<AdminHome/>} />
-        <Route path="/userManagement" element={<UserManagement/>}/>
+        <Route path="/argent-home" element={<TravelArgentHome/>}/>
+
+        <Route path="/traveler/add" element={<AddTraveler/>}/>
+        <Route path="/travelers" element={<TravelerTable/>}/>
+        <Route path="/traveler/active/add" element={<ActiveTravelerAdd/>}/>
+        <Route path="/travelers/active" element={<ActiveTravelTabele/>}/>
+        <Route path="/travelers/update/:id" element={<UpdateTravelerForm/>}/>
+
 
 
         <Route path="/trains" element={<TrainTable/>} />

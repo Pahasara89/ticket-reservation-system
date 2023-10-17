@@ -11,8 +11,8 @@ function UpdateReservation() {
     referenceId: '',
     reservationDate: '',
     userId: '',
-    from: '',
-    to: '',
+    fromDestination: '',
+    toDestination: '',
     status: true,
     trainId: '',
   });
@@ -117,11 +117,11 @@ function UpdateReservation() {
           />
         </div>
         <div className="form-group mb-3">
-          <label htmlFor="from">From</label>
+          <label htmlFor="fromDestination">From</label>
           <input
             type="text"
-            id="from"
-            name="from"
+            id="fromDestination"
+            name="fromDestination"
             value={reservationData.from}
             onChange={handleChange}
             className="form-control"
@@ -129,11 +129,11 @@ function UpdateReservation() {
           />
         </div>
         <div className="form-group mb-3">
-          <label htmlFor="to">To</label>
+          <label htmlFor="toDestination">To</label>
           <input
             type="text"
-            id="to"
-            name="to"
+            id="toDestination"
+            name="toDestination"
             value={reservationData.to}
             onChange={handleChange}
             className="form-control"
